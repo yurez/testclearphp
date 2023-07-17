@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to our Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        .button-container a {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1>Welcome to our Website</h1>
+    <?php if (isset($errorMessage)): ?>
+    <div class="alert alert-danger">
+        <?php echo $errorMessage; ?>
+    </div>
+    <?php endif; ?>
+    <p>Please choose an option:</p>
+    <div class="button-container">
+        <a href="/register" class="btn btn-primary">Register</a>
+        <a href="/login" class="btn btn-primary">Login</a>
+    </div>
+</div>
+</body>
+</html>
