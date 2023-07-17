@@ -1,0 +1,5 @@
+# Ignore vendor directory
+/vendor/
+/vendor/
+/.idea/
+
