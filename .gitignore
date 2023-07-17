@@ -1,5 +1,5 @@
-# Ignore vendor directory
-/vendor/
 /vendor/
 /.idea/
 /.env
+/.phpunit.cache
+.phpunit.result.cache
