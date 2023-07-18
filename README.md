@@ -49,7 +49,7 @@ The project follows a simple PHP project structure:
 
 * `src/`: Contains all PHP source code files, including controllers, models, and services.
 * `public/`: Contains the publicly accessible files, such as the front-end assets and index.php file.
-* `config/`: Contains configuration files, such as routes.php and services.php.
+* `config/`: Contains configuration files, such as routes.php, security.php, and services.php.
 * `docker/`: Contains the Docker-related files, such as the Dockerfile and docker-compose.yml.
 
 ## Testing
